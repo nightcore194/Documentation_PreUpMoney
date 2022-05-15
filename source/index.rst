@@ -9,7 +9,6 @@
 .. toctree::
    :maxdepth: 4
    :caption:
-
    moblie
    web
 
