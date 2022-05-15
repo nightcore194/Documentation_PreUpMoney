@@ -1,0 +1,196 @@
+
+<!DOCTYPE html>
+
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Мобильное приложение &#8212; документация PreUpMoney 1.0</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css" />
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/translations.js"></script>
+    <link rel="index" title="Алфавитный указатель" href="genindex.html" />
+    <link rel="search" title="Поиск" href="search.html" />
+    <link rel="next" title="Веб-сайт" href="web.html" />
+    <link rel="prev" title="Добро пожаловать в документацию проекта «PreUpMoney»!" href="index.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="id1">
+<h1>Мобильное приложение<a class="headerlink" href="#id1" title="Ссылка на этот заголовок">¶</a></h1>
+<section id="id2">
+<h2>Приветствие<a class="headerlink" href="#id2" title="Ссылка на этот заголовок">¶</a></h2>
+<p>После запуска приложения появится экран приветствия на котором будет доступно 2 действия:</p>
+<ol class="arabic simple">
+<li><p>Авторизация</p></li>
+<li><p>Создание нового пользователя</p></li>
+</ol>
+<section id="id3">
+<h3>Авторизация<a class="headerlink" href="#id3" title="Ссылка на этот заголовок">¶</a></h3>
+<p>Процесс авторизации пользователя состоит из следующих процессов:</p>
+<ol class="arabic simple">
+<li><p>Введение логина и пароля</p></li>
+<li><p>Подтверждение авторизации при помощи смс-кода</p></li>
+<li><p>Создание внутреннего пин-кода для дальнейшей упрощенной авторизации</p></li>
+</ol>
+</section>
+<section id="id4">
+<h3>Создание пользователя<a class="headerlink" href="#id4" title="Ссылка на этот заголовок">¶</a></h3>
+<p>Есть два способа создания нового пользователя:</p>
+<ol class="arabic simple">
+<li><p>Зарегестрироваться внутри банковской системы</p></li>
+<li><p>Авторизоваться с помощью Госуслуг с предоставлением доступа к данным</p></li>
+</ol>
+<p>В этих способах нет никакой разницы, за исключением того, как будут вносится данные - вручную или из уже существующей сисиемы
+После внесения всех данных производится верфикация данных, после чего - создается новый пользователь в системе</p>
+</section>
+</section>
+<section id="id5">
+<h2>Разделы пользователя<a class="headerlink" href="#id5" title="Ссылка на этот заголовок">¶</a></h2>
+<p>У пользователя будет 3 раздела:</p>
+<ol class="arabic simple">
+<li><p>Главный - в нем будет отображаться информация по всем имеющимся у вас продуктам</p></li>
+<li><p>Платежи - в нем будет отображаться информация о возможных платежах и переводах</p></li>
+<li><p>История - в нем будут отображаться ваши расходы и доходы за конкретный период (обычно за последний месяц)</p></li>
+</ol>
+<section id="id6">
+<h3>Счет<a class="headerlink" href="#id6" title="Ссылка на этот заголовок">¶</a></h3>
+<p>Счет отображается на главном разделе.
+О счете имеется следующая информация:</p>
+<ol class="arabic simple">
+<li><p>Текущий остаток средств</p></li>
+<li><p>История расходов/доходов</p></li>
+<li><p>Реквизиты счета</p></li>
+</ol>
+<p>С счетом так же можно совершат действия, такие как:</p>
+<ol class="arabic simple">
+<li><p>Открыть счет</p></li>
+<li><p>Редактировать тариф счета</p></li>
+<li><p>Закрыть счет</p></li>
+</ol>
+<section id="id7">
+<h4>Открыть счет<a class="headerlink" href="#id7" title="Ссылка на этот заголовок">¶</a></h4>
+<p>Для открытия счета необходимо - выбрать тариф, условия обслуживания, верифицированные данные
+Процесс проходит следующим образом:</p>
+<ol class="arabic simple">
+<li><p>Выбирается тариф и условия обслуживания</p></li>
+<li><p>Выбирается опция об выпуске пластиковой версии карты</p></li>
+<li><p>Создается счет</p></li>
+</ol>
+</section>
+<section id="id8">
+<h4>Закрыть счет<a class="headerlink" href="#id8" title="Ссылка на этот заголовок">¶</a></h4>
+<p>Закрытие счета происходит следующим образом:</p>
+<ol class="arabic simple">
+<li><p>Погашается задолжность по счету (если такая есть)</p></li>
+<li><p>Выбирается счет для перевода остатка денег на счету</p></li>
+<li><p>Закрывается счет</p></li>
+</ol>
+</section>
+</section>
+</section>
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">PreUpMoney</a></h1>
+
+
+
+
+
+
+
+
+<h3>Навигация</h3>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Мобильное приложение</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#id2">Приветствие</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id3">Авторизация</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id4">Создание пользователя</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#id5">Разделы пользователя</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id6">Счет</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id7">Открыть счет</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id8">Закрыть счет</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="web.html">Веб-сайт</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="index.html" title="предыдущая глава">Добро пожаловать в документацию проекта «PreUpMoney»!</a></li>
+      <li>Next: <a href="web.html" title="следующая глава">Веб-сайт</a></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Быстрый поиск</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Искать" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2022, Artem Ivanov.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 4.5.0</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="_sources/moblie.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
